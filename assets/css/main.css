@@ -3495,7 +3495,7 @@ body.is-preload #header:after {
     width: 6em;
   }
   .divider-dark::after {
-    background: #1e1e1e;
+    background: #555;
     content: "";
     display: inline-block;
     height: 0.5px;
