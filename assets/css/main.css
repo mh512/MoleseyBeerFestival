@@ -2479,6 +2479,15 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
+.supplier {
+  display: block;
+  margin: 0 0 2em 0;
+}
+
+.supplier img {
+  width: 55%;
+}
+
 /* List */
 
 ol {
@@ -2948,10 +2957,26 @@ button:disabled,
   font-weight: 300;
 }
 
+.pt-64 {
+  padding-top: 64px;
+}
+
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+
+.pt-20 {
+  padding-top: 20px !important;
+}
+
 /* Main */
 
 .main {
   padding: 3em 0 3em 0;
+}
+
+.main.p-20 {
+  padding: 20px 0 20px 0;
 }
 
 .main.pt-0 {
@@ -2966,22 +2991,36 @@ button:disabled,
   background-color: #333;
 }
 
-.main.greybg a {
+.main.redbg {
+  background-color: #ed3f23;
+}
+
+.main.greybg,
+.main.redbg a {
   border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
-.main.greybg a:hover {
+.main.greybg,
+.main.redbg a:hover {
   color: #ffffff;
 }
 
 .main.greybg h1,
+.main.redbg h1,
 .main.greybg h2,
+.main.redbg h2,
 .main.greybg h3,
+.main.redbg h3,
 .main.greybg h4,
+.main.redbg h4,
 .main.greybg h5,
+.main.redbg h5,
 .main.greybg h6,
+.main.redbg h6,
 .main.greybg strong,
-.main.greybg b {
+.main.redbg strong,
+.main.greybg b,
+.main.redbg b {
   color: #ffffff;
 }
 
@@ -3053,7 +3092,7 @@ button:disabled,
   color: #ffffff;
 }
 
-/* Family */
+/* Family, Beers/Cider, Gin Bar sections */
 
 #family {
   padding: 4em 0 4em 0;
