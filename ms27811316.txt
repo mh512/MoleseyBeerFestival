@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "moleseybeerfestival.co.uk",
+  "Id": "5162c842-4056-4289-8285-8f0a7471b656"
+}
