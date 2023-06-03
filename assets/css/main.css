@@ -3103,7 +3103,7 @@ button:disabled,
       rgba(0, 0, 0, 0.4) 30%,
       rgba(0, 0, 0, 0.2) 53%
     ),
-    url("../../images/castle.jpg");
+    url("../../images/kayak.jpg");
   -webkit-background-size: cover;
   background-position: center center, top left;
   background-size: cover, cover;
